@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Login Realizado{% endblock %}
+{% block content %}
+<div class="container">
+    <h2>Login Realizado</h2>
+    <div class="info">
+        <p><strong>Dados do Acesso</strong></p>
+        <p>Você está acessando o sistema por meio do usuário <strong>{{ username }}</strong></p>
+        <p>The local date and time is <strong>{{ current_time }}</strong>.</p>
+        <p>That was a few seconds ago.</p>
+    </div>
+</div>
+{% endblock %}
